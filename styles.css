@@ -10,6 +10,7 @@ body {
   /* width: min-content; */
   display: flex;
   flex-direction: column;
+
   margin-top: 100px;
   /* position: fixed; */
 }
@@ -26,6 +27,7 @@ header {
   justify-content: space-evenly;
 }
 main {
+  max-width: 321px;
   display: flex;
   flex-direction: column;
 }
@@ -68,6 +70,7 @@ section {
 }
 
 ul {
+  flex-wrap: wrap;
   position: relative;
 
   display: flex;
