@@ -17,13 +17,13 @@ nav {
   border: none;
 }
 .btn1:hover {
-  color: antiquewhite;
+  color: black;
 }
 .btn2:hover {
-  color: antiquewhite;
+  color: black;
 }
 .btn3:hover {
-  color: antiquewhite;
+  color: black;
 }
 .active_button {
   background-color: antiquewhite;
