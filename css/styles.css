@@ -1,3 +1,4 @@
+@import "./components/navigation.css";
 * {
   box-sizing: border-box;
   display: flex;
@@ -102,42 +103,7 @@ li {
   border-radius: 0.3em;
   background-color: goldenrod;
 }
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.btn1 {
-  background-color: transparent;
-  border: none;
-}
-.btn2 {
-  background-color: transparent;
-  border: none;
-}
-.btn3 {
-  background-color: transparent;
-  border: none;
-}
-.btn1:hover {
-  color: antiquewhite;
-}
-.btn2:hover {
-  color: antiquewhite;
-}
-.btn3:hover {
-  color: antiquewhite;
-}
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 320px;
-  background-color: gray;
-  border-top-left-radius: 0.5em;
-  border-top-right-radius: 0.5em;
-}
 .pic {
   height: 100px;
   width: 100px;
