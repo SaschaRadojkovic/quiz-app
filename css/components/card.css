@@ -39,9 +39,12 @@ li {
 }
 
 .pic {
-  height: 60px;
-  width: 100px;
-  border-radius: 50px;
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  /* height: 60px;
+  width: 100px; */
+  border-radius: 50%;
 }
 
 figure {
@@ -49,4 +52,5 @@ figure {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
+  gap: 10px;
 }
