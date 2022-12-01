@@ -12,7 +12,30 @@
     <header>
       <h1>Quiz App</h1>
     </header>
-    <main></main>
+    <main>
+      <section>
+        <form class="new-questioncard" data-js="form">
+          <label for="question-input">Your Question</label>
+          <textarea
+            class="your-question"
+            id="question-input"
+            name="yourquestion"
+          ></textarea>
+
+          <label for="answer-input">Your Answer</label>
+          <textarea
+            class="your-answer"
+            id="answer-input"
+            name="youranswer"
+          ></textarea>
+
+          <label for="tag-input">Tag</label>
+          <input id="tag-input" type="text" name="taginput" />
+          <button class="submit-button" type="submit">submit</button>
+        </form>
+        <ul data-js="new-question"></ul>
+      </section>
+    </main>
     <footer>
       <nav>
         <a href="index.html"
