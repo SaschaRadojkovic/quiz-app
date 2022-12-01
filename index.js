@@ -7,12 +7,17 @@
 //   console.log("test");
 // });
 const answer1 = document.querySelector('[data-js="showanswer1"]');
+const toastContainer = document.querySelector('[data-js="toast-container"]');
 
 answer1.addEventListener("click", () => {
-  const newAnswer = document.createElement("p");
-  newAnswer.classList.add("card1");
+  const newAnswer = document.createElement("li");
+  newAnswer.classList.add("li");
   newAnswer.textContent = "hier deine Antwort";
-  answerContainer.append(newAnswer);
+  toastContainer.append(newAnswer);
+});
+
+anwser1.addEventListener("click", () => {
+  toastContainer.innerHTML = "";
 });
 
 const button1 = document.querySelector('[data-js="bookmark1"]');
