@@ -4,7 +4,7 @@
 @import "./components/global.css";
 @import "./components/button.css";
 
-form {
+/* form {
   display: grid;
   width: 90%;
   margin: 5px auto;
@@ -21,4 +21,4 @@ fieldset {
 
 input[type="color"] {
   margin: auto;
-}
+} */

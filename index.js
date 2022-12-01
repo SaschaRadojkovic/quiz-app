@@ -7,12 +7,12 @@
 //   console.log("test");
 // });
 const answer1 = document.querySelector('[data-js="showanswer1"]');
+
 answer1.addEventListener("click", () => {
-  //   if ( {
-  //     output.textContent = "you are teen";
-  //   } else {
-  //     output.textContent = "you are not a teen";
-  //   }
+  const newAnswer = document.createElement("p");
+  newAnswer.classList.add("card1");
+  newAnswer.textContent = "hier deine Antwort";
+  toastContainer.append(newAnswer);
 });
 
 const button1 = document.querySelector('[data-js="bookmark1"]');
