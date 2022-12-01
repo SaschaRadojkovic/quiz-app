@@ -15,7 +15,11 @@
   top: -20px;
   right: 10px;
 }
-.bookmark:hover {
+.active {
+  color: red;
+}
+
+/* .bookmark:hover {
   color: grey;
   fill: grey;
-}
+} */
