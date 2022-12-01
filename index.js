@@ -8,17 +8,21 @@
 // });
 const answer1 = document.querySelector('[data-js="showanswer1"]');
 const toastContainer = document.querySelector('[data-js="toast-container"]');
+const answerText = document.querySelector('[data-js="answer-text"]');
 
 answer1.addEventListener("click", () => {
   const newAnswer = document.createElement("li");
-  newAnswer.classList.add("li");
+  newAnswer.classList.add("answer-test");
   newAnswer.textContent = "hier deine Antwort";
   toastContainer.append(newAnswer);
 });
 
-anwser1.addEventListener("click", () => {
-  toastContainer.innerHTML = "";
-});
+// answer1.addEventListener("click", () => {
+//   const newAnswer = document.createElement("li");
+//   newAnswer.classList.add("answer-test");
+//   newAnswer.textContent = "hier deine Antwort";
+//   toastContainer.append(newAnswer);
+// });
 
 const button1 = document.querySelector('[data-js="bookmark1"]');
 button1.addEventListener("click", () => {

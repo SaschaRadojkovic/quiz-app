@@ -3,22 +3,3 @@
 @import "./components/header.css";
 @import "./components/global.css";
 @import "./components/button.css";
-
-/* form {
-  display: grid;
-  width: 90%;
-  margin: 5px auto;
-  padding: 10px;
-  border: 1px solid rgb(37, 38, 41);
-  border-radius: 5px;
-}
-fieldset {
-  display: grid;
-  gap: 5px;
-  border-radius: 5px;
-  border: 1px solid rgb(37, 38, 41);
-}
-
-input[type="color"] {
-  margin: auto;
-} */

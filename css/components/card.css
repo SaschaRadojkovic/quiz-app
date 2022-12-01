@@ -17,18 +17,14 @@ section.card1 {
   position: relative;
 }
 ul {
-  flex-wrap: wrap;
-
   position: relative;
-
-  /* display: flex; */
-
+  display: flex;
   justify-content: space-around;
   list-style: none;
   gap: 4px;
 }
 li {
-  /* position: relative; */
+  position: relative;
   right: 50px;
   padding-left: 10px;
   padding-right: 10px;
@@ -53,4 +49,8 @@ figure {
   align-items: center;
   justify-content: space-evenly;
   gap: 10px;
+}
+
+.answer-text {
+  background-color: white;
 }
