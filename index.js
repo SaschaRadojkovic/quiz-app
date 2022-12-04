@@ -1,23 +1,7 @@
-// console.clear();
-
-// const button1 = document.querySelector('[data-js="bookmark1"]');
-// button1.addEventListener("click", () => {
-//   console.log("test");
-//   button1.classList.remove("bookmark");
-//   button1.classList.toggle("active");
-
-//   console.log("test");
-// });
 const answer1 = document.querySelector('[data-js="showanswer1"]');
 console.log("answer1", answer1);
 const toastContainer = document.querySelector('[data-js="toast-container"]');
 const newAnswer = document.querySelector('[data-js="answer-text"]');
-
-// newAnswer = document.createElement("li");
-// newAnswer.classList.add("answer-test");
-// newAnswer.textContent = "hier deine Antwort";
-// newAnswer.hidden = true;
-// toastContainer.append(newAnswer);
 
 answer1.addEventListener("click", () => {
   newAnswer.hidden = !newAnswer.hidden;
@@ -27,13 +11,6 @@ answer1.addEventListener("click", () => {
     answer1.textContent = "Hide Answer";
   }
 });
-
-// answer1.addEventListener("click", () => {
-//   const newAnswer = document.createElement("li");
-//   newAnswer.classList.add("answer-test");
-//   newAnswer.textContent = "hier deine Antwort";
-//   toastContainer.append(newAnswer);
-// });
 
 const button1 = document.querySelector('[data-js="bookmark1"]');
 button1.addEventListener("click", () => {
