@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="form.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <section>
+        <form class="new-questioncard" data-js="form">
+          <label for="question-input">Your Question</label>
+          <textarea
+            class="your-question"
+            id="question-input"
+            name="yourquestion"
+            data-js="input-question1"
+            minlength="4"
+            maxlength="160"
+          ></textarea>
+          <small class="char-left-question" data-js="counter1">(characters left)</small>
+
+          <label for="answer-input">Your Answer</label>
+          <textarea
+            class="your-answer"
+            id="answer-input"
+            name="youranswer"
+            data-js="input-question2"
+            minlength="4"
+            maxlength="160"
+          ></textarea>
+          <small class="char-left-answer" data-js="counter2">(characters left)</small>
+
+          <label for="tag-input">Tag</label>
+          <input id="tag-input" type="text" name="taginput" />
+          <button class="submit-button" type="submit">submit</button>
+        </form>
+        <section data-js="new-question"></section>
+       <!-- <section hidden>
+        <section class="card1">
+            <h2 class="questionheader">Question</h2>
+            <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>flexbox</li>
+            </ul>
+    
+            <p class ="question_text">
+              a lot of questions,you should answer<br />if you cant you should learn
+            </p>
+            <button type="button" class="answer" aria-label="click to show answer" data-js="showanswer1">Show Answer</button>
+            <ul class="toast-container" data-js="toast-container">
+              <li class="answer-text" data-js="answer-text" hidden>hier ist deine antwort
+        
+              </li>
+            </ul>
+            <button class="bookmark" aria-label="click to bookmark" data-js="bookmark1">
+                <svg style="width:40px;height: 45px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+                </svg></i>
+            </button>
+         
+          </section>
+      </section> -->
+    </main>
+    <footer>
+      <nav>
+        <a href="index.html"
+          ><button class="btn1" aria-label="click to go to startpage">
+            <svg style="width: 40px; height: 48px" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"
+              />
+            </svg>
+          </button>
+        </a>
+        <a href="bookmark.html"
+          ><button class="btn2" aria-label="click to go to bookmarks">
+            <svg style="width: 40px; height: 48px" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+              />
+            </svg>
+          </button>
+        </a>
+        <a class="active_button" href="form.html"
+          ><button class="btn4" aria-label="click to go to profile">
+            <svg style="width: 40px; height: 48px" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+              />
+            </svg>
+          </button>
+        </a>
+        <a href="profile.html"
+          ><button class="btn3" aria-label="click to go to profile">
+            <svg style="width: 45px; height: 48px" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+              />
+            </svg>
+          </button>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

@@ -1,4 +1,7 @@
 .answer {
+  margin-top: -1.5em;
+  margin-left: 6em;
+  margin-right: 6em;
   padding-bottom: 5px;
   padding-top: 5px;
   background-color: burlywood;
@@ -18,8 +21,3 @@
 .active {
   color: red;
 }
-
-/* .bookmark:hover {
-  color: grey;
-  fill: grey;
-} */
