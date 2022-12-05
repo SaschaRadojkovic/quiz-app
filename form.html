@@ -20,16 +20,22 @@
             class="your-question"
             id="question-input"
             name="yourquestion"
+            data-js="input-question1"
+            minlength="4"
+            maxlength="160"
           ></textarea>
-          <small>(characters left)</small>
+          <small class="char-left-question" data-js="counter1">(characters left)</small>
 
           <label for="answer-input">Your Answer</label>
           <textarea
             class="your-answer"
             id="answer-input"
             name="youranswer"
+            data-js="input-question2"
+            minlength="4"
+            maxlength="160"
           ></textarea>
-          <small>(characters left)</small>
+          <small class="char-left-answer" data-js="counter2">(characters left)</small>
 
           <label for="tag-input">Tag</label>
           <input id="tag-input" type="text" name="taginput" />

@@ -1,8 +1,8 @@
 .card1 {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  margin: 20px;
+  padding: 0.5em;
+  margin: 1.3em;
   border: 1px solid black;
   border-radius: 0.5em;
   position: relative;
@@ -14,10 +14,7 @@
   margin-top: 0;
   left: 0.5em;
 }
-.question_text {
-  position: relative;
-  top: 0.5em;
-}
+
 .name {
   position: relative;
 }
@@ -38,6 +35,17 @@ li {
   border: 1px solid black;
   border-radius: 0.3em;
   background-color: goldenrod;
+}
+
+.question_text {
+  position: relative;
+  top: -1em;
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid;
+  border-radius: 0.3em;
+  box-shadow: 5px 5px 10px;
 }
 
 .pic {
@@ -67,8 +75,8 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: blanchedalmond;
-  border-radius: 5%;
+  background-color: antiquewhite;
+  border-radius: 0.5em;
   border: solid 1px black;
 }
 .submit-button {
@@ -84,13 +92,15 @@ figure {
   background-color: rgb(217, 131, 19);
 }
 
-.question_text {
+.char-left-question {
   position: relative;
-  top: -1em;
-  background-color: white;
-  margin: 1em;
-  padding: 1em;
-  border: 2px solid;
-  border-radius: 1em;
-  box-shadow: 5px 5px 10px;
+  margin-top: -0.9em;
+  font-size: 0.7rem;
+  color: #9f9f9f;
+}
+.char-left-answer {
+  position: relative;
+  margin-top: -0.9em;
+  font-size: 0.7rem;
+  color: #9f9f9f;
 }

@@ -43,3 +43,19 @@ form.addEventListener("submit", (event) => {
 
   event.target.reset();
 });
+
+const input1 = document.querySelector(`[data-js = "input-question1"]`);
+const counter1 = document.querySelector(`[data-js="counter1"]`);
+
+input1.addEventListener("input", (evt) => {
+  const numLeft = 160 - input1.value.length;
+  counter1.textContent = `(${numLeft} characters left)`;
+});
+
+const input2 = document.querySelector(`[data-js = "input-question2"]`);
+const counter2 = document.querySelector(`[data-js="counter2"]`);
+
+input2.addEventListener("input", (evt) => {
+  const numLeft = 160 - input2.value.length;
+  counter2.textContent = `(${numLeft} characters left)`;
+});
